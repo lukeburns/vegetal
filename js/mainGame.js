@@ -1,7 +1,7 @@
 const gameData = {
     "1": {
         "text": "Chloe starts her day with a mission: get a fresh pepper from the supermarket. What does she grab before heading out?",
-        "image": "images/starting_point.png",
+        "image": "images/placeholder.png",
         "choices": {
             "Her lucky charm": [2, ["Adventurous", "Hopeful"]],
             "A shopping list": [2, ["Organized", "Practical"]],
@@ -11,7 +11,7 @@ const gameData = {
     },
     "2": {
         "text": "On her way to the supermarket, Chloe bumps into an old friend. Who is it?",
-        "image": "images/old_friend.png",
+        "image": "images/placeholder.png",
         "choices": {
             "Alex, the flirtatious artist": [3, ["Charming", "Artistic"]],
             "Jordan, the wise mentor": [4, ["Wise", "Supportive"]],
@@ -21,7 +21,7 @@ const gameData = {
     },
     "3": {
         "text": "Alex insists on accompanying Chloe to the supermarket. What do they talk about on the way?",
-        "image": "images/talking_with_alex.png",
+        "image": "images/placeholder.png",
         "choices": {
             "Art and creativity": [41, ["Artistic", "Inspirational"]],
             "Past memories": [41, ["Nostalgic", "Emotional"]],
@@ -31,7 +31,7 @@ const gameData = {
     },
     "41": {
         "text": "They arrive at the supermarket. Chloe needs to find the pepper quickly, but Alex suggests taking a detour. What does Chloe do?",
-        "image": "images/supermarket.png",
+        "image": "images/placeholder.png",
         "choices": {
             "Follow Alex's suggestion": [7, ["Trusting", "Adventurous"]],
             "Stick to her plan and go straight to the produce section": [7, ["Determined", "Focused"]],
@@ -41,7 +41,7 @@ const gameData = {
     },
     "7": {
         "text": "Chloe finally finds the pepper, but a supermarket siren starts singing, distracting her. What does she do?",
-        "image": "images/siren_singing.png",
+        "image": "images/placeholder.png",
         "choices": {
             "Cover her ears and focus on the pepper": [8, ["Determined", "Focused"]],
             "Listen to the siren's song": [8, ["Curious", "Enchanted"]],
@@ -51,7 +51,7 @@ const gameData = {
     },
     "8": {
         "text": "Chloe manages to grab the pepper, but a pepper thief appears and snatches it! What does she do?",
-        "image": "images/pepper_thief.png",
+        "image": "images/placeholder.png",
         "choices": {
             "Chase the thief": [9, ["Determined", "Brave"]],
             "Ask for help from Alex": [9, ["Collaborative", "Trusting"]],
@@ -61,7 +61,7 @@ const gameData = {
     },
     "9": {
         "text": "Chloe successfully retrieves the pepper from the thief. Now, she needs to get back home safely. What's her plan?",
-        "image": "images/getting_home.png",
+        "image": "images/placeholder.png",
         "choices": {
             "Take a shortcut through the park": [10, ["Adventurous", "Brave"]],
             "Stick to the main road": [10, ["Safe", "Practical"]],
@@ -71,7 +71,7 @@ const gameData = {
     },
     "10": {
         "text": "Chloe finally reaches home with her pepper. How does she feel about her adventure?",
-        "image": "images/home_sweet_home.png",
+        "image": "images/placeholder.png",
         "choices": {
             "Excited and fulfilled": [0, ["Happy", "Content"]],
             "Tired but accomplished": [0, ["Exhausted", "Proud"]],
@@ -81,7 +81,7 @@ const gameData = {
     },
     "0": {
         "text": "Congratulations! Chloe successfully completed her quest. Here's her personality profile based on your choices:",
-        "image": "images/personality_profile.png",
+        "image": "images/placeholder.png",
         "choices": {
             "See Chloe's personality profile": [0, []]
         }
