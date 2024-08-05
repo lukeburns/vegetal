@@ -1,151 +1,145 @@
 const gameData = {
     "1": {
-        "text": "Chloe's journey begins at home. She realizes she needs a pepper for her favorite recipe. What should she do first?",
-        "image": "images/home.png",
+        "text": "Chloe starts her day with a mission: get a fresh pepper from the supermarket. What does she grab before heading out?",
+        "image": "images/starting_point.png",
         "choices": {
-            "Head straight to the supermarket": [2, ["Helper", "Shopper"]],
-            "Call a friend to ask if they have a pepper": [3, ["Helper"]],
-            "Look online for pepper delivery": [4, ["Shopper"]]
+            "Her lucky charm": [2, ["Adventurous", "Hopeful"]],
+            "A shopping list": [2, ["Organized", "Practical"]],
+            "Her phone": [2, ["Connected", "Modern"]],
+            "A reusable bag": [2, ["Eco-friendly", "Prepared"]]
         }
     },
     "2": {
-        "text": "On the way to the supermarket, Chloe encounters a charming stranger who offers to help her find the perfect pepper. What does she do?",
-        "image": "images/stranger.png",
+        "text": "On her way to the supermarket, Chloe bumps into an old friend. Who is it?",
+        "image": "images/old_friend.png",
         "choices": {
-            "Accept the stranger's help": [5, ["Suitor"]],
-            "Politely decline and continue on her own": [6, ["Shopper"]],
-            "Ask for more information about the stranger": [7, ["Suitor", "Guard"]]
+            "Alex, the flirtatious artist": [3, ["Charming", "Artistic"]],
+            "Jordan, the wise mentor": [4, ["Wise", "Supportive"]],
+            "Casey, the competitive rival": [5, ["Competitive", "Driven"]],
+            "Taylor, the mysterious stranger": [6, ["Mysterious", "Intriguing"]]
         }
     },
     "3": {
-        "text": "Chloe calls her friend, but they are busy. They suggest Chloe goes to the supermarket and offers some advice on the best route. What does Chloe do?",
-        "image": "images/call_friend.png",
+        "text": "Alex insists on accompanying Chloe to the supermarket. What do they talk about on the way?",
+        "image": "images/talking_with_alex.png",
         "choices": {
-            "Follow the friend's advice": [2, ["Helper"]],
-            "Decide to take a different route": [8, ["Shopper"]],
-            "Ask the friend to join her later": [9, ["Helper", "Suitor"]]
+            "Art and creativity": [41, ["Artistic", "Inspirational"]],
+            "Past memories": [41, ["Nostalgic", "Emotional"]],
+            "Future dreams": [41, ["Ambitious", "Hopeful"]],
+            "Just enjoy the walk silently": [41, ["Contemplative", "Peaceful"]],
         }
     },
-    "4": {
-        "text": "Chloe finds a delivery service that can bring a pepper to her house, but it will take a few hours. She decides to...",
-        "image": "images/online_delivery.png",
+    "41": {
+        "text": "They arrive at the supermarket. Chloe needs to find the pepper quickly, but Alex suggests taking a detour. What does Chloe do?",
+        "image": "images/supermarket.png",
         "choices": {
-            "Wait for the delivery": [10, ["Shopper"]],
-            "Go to the supermarket anyway": [2, ["Shopper"]],
-            "Call the service to see if they can expedite": [11, ["Helper"]]
-        }
-    },
-    "5": {
-        "text": "The charming stranger leads Chloe to a secret corner of the supermarket where they claim the best peppers are kept. Chloe starts to feel...",
-        "image": "images/secret_corner.png",
-        "choices": {
-            "Excited about the special peppers": [12, ["Suitor"]],
-            "Suspicious of the stranger's intentions": [13, ["Guard"]],
-            "Grateful for the help": [14, ["Helper", "Suitor"]]
-        }
-    },
-    "6": {
-        "text": "Chloe continues on her own and encounters a group of supermarket sirens with beautiful voices, distracting her from her quest. What does she do?",
-        "image": "images/sirens.png",
-        "choices": {
-            "Ignore the sirens and stay focused": [15, ["Guard"]],
-            "Listen to the sirens and enjoy the music": [16, ["Sirens"]],
-            "Ask the sirens for directions to the peppers": [17, ["Sirens", "Helper"]]
+            "Follow Alex's suggestion": [7, ["Trusting", "Adventurous"]],
+            "Stick to her plan and go straight to the produce section": [7, ["Determined", "Focused"]],
+            "Explore the supermarket together": [7, ["Curious", "Open-minded"]],
+            "Ask Alex to wait while she quickly grabs the pepper": [7, ["Practical", "Efficient"]],
         }
     },
     "7": {
-        "text": "The stranger explains they work at the supermarket and are passionate about peppers. Chloe feels...",
-        "image": "images/stranger_explains.png",
+        "text": "Chloe finally finds the pepper, but a supermarket siren starts singing, distracting her. What does she do?",
+        "image": "images/siren_singing.png",
         "choices": {
-            "More comfortable and accepts their help": [5, ["Suitor", "Helper"]],
-            "Still cautious and decides to go alone": [6, ["Guard"]],
-            "Intrigued and asks more about peppers": [18, ["Suitor", "Helper"]]
+            "Cover her ears and focus on the pepper": [8, ["Determined", "Focused"]],
+            "Listen to the siren's song": [8, ["Curious", "Enchanted"]],
+            "Ask Alex for help": [8, ["Trusting", "Collaborative"]],
+            "Run away from the siren": [8, ["Scared", "Cautious"]],
         }
     },
     "8": {
-        "text": "Taking a different route, Chloe stumbles upon a pepper thief in the act! What does she do?",
-        "image": "images/thief.png",
+        "text": "Chloe manages to grab the pepper, but a pepper thief appears and snatches it! What does she do?",
+        "image": "images/pepper_thief.png",
         "choices": {
-            "Confront the thief": [19, ["Guard", "Thief"]],
-            "Report the thief to the supermarket staff": [20, ["Helper"]],
-            "Follow the thief secretly": [21, ["Thief"]]
+            "Chase the thief": [9, ["Determined", "Brave"]],
+            "Ask for help from Alex": [9, ["Collaborative", "Trusting"]],
+            "Set a trap for the thief": [9, ["Clever", "Strategic"]],
+            "Try to negotiate with the thief": [9, ["Diplomatic", "Calm"]],
         }
     },
     "9": {
-        "text": "Her friend agrees to join her later. While waiting, Chloe decides to...",
-        "image": "images/waiting.png",
+        "text": "Chloe successfully retrieves the pepper from the thief. Now, she needs to get back home safely. What's her plan?",
+        "image": "images/getting_home.png",
         "choices": {
-            "Prepare other ingredients at home": [22, ["Helper"]],
-            "Relax and read a book": [23, ["Shopper"]],
-            "Call another friend for a chat": [24, ["Helper", "Suitor"]]
+            "Take a shortcut through the park": [10, ["Adventurous", "Brave"]],
+            "Stick to the main road": [10, ["Safe", "Practical"]],
+            "Ask Alex to accompany her home": [10, ["Trusting", "Collaborative"]],
+            "Call a ride-share service": [10, ["Modern", "Efficient"]],
         }
     },
-    // Further game states with additional encounters and choices
     "10": {
-        "text": "While waiting for the delivery, Chloe hears a knock on the door. It's an unexpected suitor with a pepper. What does she do?",
-        "image": "images/unexpected_suitor.png",
+        "text": "Chloe finally reaches home with her pepper. How does she feel about her adventure?",
+        "image": "images/home_sweet_home.png",
         "choices": {
-            "Accept the pepper and chat with the suitor": [25, ["Suitor"]],
-            "Politely decline and wait for the delivery": [26, ["Shopper"]],
-            "Ask the suitor how they knew she needed a pepper": [27, ["Suitor", "Guard"]]
+            "Excited and fulfilled": [0, ["Happy", "Content"]],
+            "Tired but accomplished": [0, ["Exhausted", "Proud"]],
+            "Relieved to be home": [0, ["Relieved", "Calm"]],
+            "Already thinking about the next adventure": [0, ["Ambitious", "Eager"]],
         }
     },
-    "11": {
-        "text": "The delivery service agrees to expedite, but it will cost extra. Chloe decides to...",
-        "image": "images/expedite.png",
-        "choices": {
-            "Pay the extra fee": [28, ["Shopper"]],
-            "Wait for the regular delivery time": [10, ["Shopper"]],
-            "Cancel the order and go to the supermarket": [2, ["Shopper"]]
-        }
-    },
-    "12": {
-        "text": "Chloe finds the special peppers and feels a sense of achievement. However, the stranger now asks for her phone number. What does she do?",
-        "image": "images/special_peppers.png",
-        "choices": {
-            "Give her phone number": [29, ["Suitor"]],
-            "Politely refuse": [30, ["Guard"]],
-            "Ask why they want her number": [31, ["Suitor", "Guard"]]
-        }
-    },
-    "13": {
-        "text": "Chloe's suspicion grows as the stranger acts more oddly. She decides to...",
-        "image": "images/suspicion.png",
-        "choices": {
-            "Leave immediately": [6, ["Guard"]],
-            "Confront the stranger": [32, ["Guard"]],
-            "Seek help from the supermarket staff": [20, ["Helper"]]
-        }
-    },
-    "14": {
-        "text": "Grateful for the help, Chloe finds the perfect pepper. The stranger now suggests they cook together. What does she do?",
-        "image": "images/cooking.png",
-        "choices": {
-            "Agree to cook together": [33, ["Suitor", "Helper"]],
-            "Thank them and leave": [34, ["Guard"]],
-            "Suggest cooking another time": [35, ["Suitor", "Helper"]]
-        }
-    },
-    // End state example
     "0": {
-        "text": "Chloe finally gets her pepper and makes it back home. Along the way, she made new friends and had quite the adventure. Chloe is...",
-        "image": "images/home.png",
+        "text": "Congratulations! Chloe successfully completed her quest. Here's her personality profile based on your choices:",
+        "image": "images/personality_profile.png",
         "choices": {
-            "Happy and ready to cook": [0, ["Pepper"]],
-            "Exhausted but satisfied": [0, ["Pepper"]],
-            "Already planning her next adventure": [0, ["Pepper"]]
+            "See Chloe's personality profile": [0, []]
         }
-    }
+    },
 };
 
 const personalities = { 
-    "Suitor": 0, // The Charmer
-    "Sirens": 0, // The Enchanter
-    "Thief": 0, // The Trickster
-    "Helper": 0, // The Ally
-    "Guard": 0, // The Protector
-    "Shopper": 0, // The Commoner
-    "Pepper": 0, // The Prize
+    "Adventurous": 0,
+    "Hopeful": 0,
+    "Organized": 0,
+    "Practical": 0,
+    "Connected": 0,
+    "Modern": 0,
+    "Eco-friendly": 0,
+    "Prepared": 0,
+    "Charming": 0,
+    "Artistic": 0,
+    "Wise": 0,
+    "Supportive": 0,
+    "Competitive": 0,
+    "Driven": 0,
+    "Mysterious": 0,
+    "Intriguing": 0,
+    "Artistic": 0,
+    "Inspirational": 0,
+    "Nostalgic": 0,
+    "Emotional": 0,
+    "Ambitious": 0,
+    "Hopeful": 0,
+    "Contemplative": 0,
+    "Peaceful": 0,
+    "Trusting": 0,
+    "Adventurous": 0,
+    "Determined": 0,
+    "Focused": 0,
+    "Curious": 0,
+    "Open-minded": 0,
+    "Practical": 0,
+    "Efficient": 0,
+    "Enchanted": 0,
+    "Collaborative": 0,
+    "Scared": 0,
+    "Cautious": 0,
+    "Brave": 0,
+    "Strategic": 0,
+    "Diplomatic": 0,
+    "Calm": 0,
+    "Safe": 0,
+    "Modern": 0,
+    "Efficient": 0,
+    "Happy": 0,
+    "Content": 0,
+    "Exhausted": 0,
+    "Proud": 0,
+    "Relieved": 0,
+    "Calm": 0,
+    "Ambitious": 0,
+    "Eager": 0
 };
 
 let currentState = 1;
@@ -174,9 +168,7 @@ function renderState(state) {
     };
 }
 
-
 function changeState(newState, selectedPersonalities) { 
-    // console.log(personalities); 
     selectedPersonalities.forEach(personality => {
         personalities[personality]++;
     });
@@ -184,12 +176,13 @@ function changeState(newState, selectedPersonalities) {
     currentState = newState;
 
     if (currentState === 0) {
-        revealMostSelectedVegetable();
+        revealMostSelectedPersonality();
     } else {
         renderState(currentState);
     }
 }
-function revealMostSelectedVegetable() {
+
+function revealMostSelectedPersonality() {
     let maxCount = 0;
     let maxPersonality = '';
 
@@ -203,29 +196,29 @@ function revealMostSelectedVegetable() {
     const storyImage = document.getElementById('story-image');
     const text = document.getElementById('story-text');
     const choicesContainer = document.getElementById('choices');
-    const personalityImagePath = `images/personality_cards/${maxPersonality}.png`;
+    const personalityImagePath = `images/personality/${maxPersonality}.png`;
 
     // Preload the image
     const img = new Image();
     img.src = personalityImagePath;
-    img.className = 'responsive-image';
+    img.className = 'responsive-image'; 
 
     // Create the share button
     const shareButton = document.createElement('button');
-    shareButton.textContent = 'Share your journey with friends';
+    shareButton.textContent = 'Share the game with Friends';
     shareButton.className = 'choice-button';
 
     // Once the image is loaded, update the DOM
     img.onload = () => {
         storyImage.style.display = 'none';
         choicesContainer.style.display = 'none';
-
-        text.textContent = `You are a ${maxPersonality}! (Right click or hold the image to save)`;
+    
+        text.textContent = "Here's your personality profile! Don't lose it! (Right click or hold the image to save)";
         text.appendChild(img);
 
         // Share button functionality
         shareButton.onclick = () => {
-            const shareMessage = `Check out my journey as a ${maxPersonality}! You can create yours at https://your-game-url.com`;
+            const shareMessage = `Check out my personality profile in Chloe's adventure! You can create yours at https://sophie006liu.github.io/vegetal/`;
             navigator.clipboard.writeText(shareMessage).then(() => {
                 alert('Link copied to clipboard!');
             }).catch(err => {
@@ -236,7 +229,6 @@ function revealMostSelectedVegetable() {
         text.appendChild(shareButton);
     };
 }
-
 
 function startGame() {
     document.querySelector('.title').style.display = 'none';
